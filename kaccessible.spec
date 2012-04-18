@@ -8,6 +8,7 @@ URL:     http://www.kde.org/
 Source:  ftp://ftp.kde.org/pub/kde/stable/%version/src/%{name}-%version.tar.bz2
 
 BuildRequires: kdelibs4-devel >= 2:%{version}
+Obsoletes: kdeaccessibility4-core
 
 %description
 kaccessible implements a QAccessibleBridgePlugin to provide 
