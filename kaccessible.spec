@@ -1,6 +1,6 @@
 Name:		kaccessible
 Summary:	Accessibility services like focus tracking and a screenreader
-Version:	4.12.4
+Version:	4.13.2
 Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
@@ -32,6 +32,9 @@ accessibility services like focus tracking and a screenreader.
 %makeinstall_std -C build
 
 %changelog
+* Wed Jun 11 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.13.2-1
+- New version 4.13.2
+
 * Wed Apr 02 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.12.4-1
 - New version 4.12.4
 
