@@ -2,7 +2,7 @@
 
 Name:		kaccessible
 Summary:	Accessibility services like focus tracking and a screenreader
-Version:	15.08.0
+Version:	15.08.1
 Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
@@ -27,7 +27,7 @@ accessibility services like focus tracking and a screenreader.
 %setup -q
 
 %build
-%cmake_kde4
+%cmake_kde4 -DCMAKE_MINIMUM_REQUIRED_VERSION=2.6
 %make
 
 %install
