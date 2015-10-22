@@ -8,7 +8,7 @@ Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://www.kde.org/
 Source0:	ftp://ftp.kde.org/pub/kde/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
-BuildRequires:	kdelibs4-devel
+BuildRequires:	kdelibs-devel
 BuildRequires:	speech-dispatcher-devel
 Obsoletes:	kdeaccessibility4-core < 2:4.8.0
 
