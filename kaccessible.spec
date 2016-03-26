@@ -3,7 +3,7 @@
 Name:		kaccessible
 Summary:	Accessibility services like focus tracking and a screenreader
 Version:	15.12.3
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://www.kde.org/
