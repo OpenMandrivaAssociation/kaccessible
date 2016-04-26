@@ -2,12 +2,12 @@
 
 Name:		kaccessible
 Summary:	Accessibility services like focus tracking and a screenreader
-Version:	15.12.3
-Release:	2
+Version:	16.04.0
+Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://www.kde.org/
-Source0:	ftp://ftp.kde.org/pub/kde/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kdelibs-devel
 BuildRequires:	speech-dispatcher-devel
 Obsoletes:	kdeaccessibility4-core < 2:4.8.0
