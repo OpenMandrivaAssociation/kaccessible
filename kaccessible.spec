@@ -6,7 +6,7 @@ Version:	17.08.3
 Release:	1
 Group:		Graphical desktop/KDE
 License:	LGPLv2
-URL:		http://www.kde.org/
+URL:		https://www.kde.org/
 Source0:	http://download.kde.org/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kdelibs-devel
 BuildRequires:	speech-dispatcher-devel
